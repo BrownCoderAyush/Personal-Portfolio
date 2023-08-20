@@ -1,0 +1,11 @@
+Model Information:
+* title:	Astro13_Fall
+* source:	https://sketchfab.com/3d-models/astro13-fall-7f1012d3317943e5959524af730e2361
+* author:	Pol Karaga Roselló (https://sketchfab.com/Noouk)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Astro13_Fall" (https://sketchfab.com/3d-models/astro13-fall-7f1012d3317943e5959524af730e2361) by Pol Karaga Roselló (https://sketchfab.com/Noouk) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
