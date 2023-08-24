@@ -40,6 +40,7 @@ import {
     },
   ];
   
+ 
   const services = [
     {
       title: "Web Developer",
@@ -218,5 +219,12 @@ import {
       source_code_link: "https://github.com/",
     },
   ];
+
+  const skills = [
+    " Full Stack \n Developer",
+    " Problem \n Solving \n  Enthusiast",
+    " Competitive \n Programmer",
+    " Entherprenuer \n Programmer"
+  ]
   
-  export { services, technologies, experiences, testimonials, projects };
+  export {skills ,   services, technologies, experiences, testimonials, projects };
