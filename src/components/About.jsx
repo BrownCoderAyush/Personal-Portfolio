@@ -6,6 +6,7 @@ import { styles } from '../style'
 import { services } from '../constants'
 import { fadeIn, textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import { backend } from '../assets'
 
 const ServiceCard = ({ title, index, icon }) => {
   return (
@@ -30,6 +31,10 @@ const ServiceCard = ({ title, index, icon }) => {
 const About = () => {
   return (
     <>
+
+  <div className='flex sm:flex-row flex-col gap-7 items-center justify-center'>
+
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview</h2>
@@ -41,9 +46,14 @@ const About = () => {
         Minima doloribus impedit vero incidunt praesentium deleniti ratione itaque facilis fugiat. Similique delectus accusantium perferendis aperiam ipsum vero inventore tenetur harum! Tempore, tempora harum. Nihil ratione assumenda vel esse at?
         In obcaecati, autem eligendi aut nam modi nisi iure architecto dolor laudantium. Deleniti, ut maiores, ipsam, unde doloribus velit eligendi sint perferendis nostrum aut cupiditate sed laudantium harum ea assumenda?
         Excepturi quidem similique consequatur adipisci sapiente vero eum esse veniam, ad nesciunt quod! Vero delectus quos porro cum laudantium eius odio, quibusdam nesciunt optio architecto eligendi odit, sunt iusto voluptatem.
-
-
       </motion.p>
+    </div>
+    <div className={`h-[55vh] sm:w-[35vw] w-[70vw] mx-auto  bg-[url("./assets/ayush.jpg")]  rounded-md bg-cover bg-no-repeat `}>
+   
+    </div>
+  </div>
+    
+ 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
