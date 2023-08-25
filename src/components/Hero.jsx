@@ -55,7 +55,7 @@ const Hero = () => {
           I am a ....
         </div>
         <motion.div
-          className={`${styles.heroHeadText}  relative top-6 sm:pl-[20%] pl-[19.5%] sm:text-[4vw] text-[8vw] `}
+          className={`${styles.heroHeadText}  relative top-6 sm:pl-[20%] pl-[15%] sm:text-[4vw] text-[10vw] `}
         >
           <motion.p
             key={animationKey} 
@@ -75,7 +75,7 @@ const Hero = () => {
       </div>
       {/* <ComputersCanvas/> */}
       {/* animated button to navigate about section */}
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-10 bottom-[10%] w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div animate={{ y: [0, 24, 0] }}

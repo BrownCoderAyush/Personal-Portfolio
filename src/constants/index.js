@@ -223,8 +223,7 @@ import {
   const skills = [
     " Full Stack \n Developer",
     " Problem \n Solving \n  Enthusiast",
-    " Competitive \n Programmer",
-    " Entherprenuer \n Programmer"
+    " Competitive \n Programmer"
   ]
   
   export {skills ,   services, technologies, experiences, testimonials, projects };
